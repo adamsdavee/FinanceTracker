@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 Personal Finance Tracker
 
-## Getting Started
+A responsive single-page web application built with **Next.js** and **Tailwind CSS** that allows users to track their **income** and **expenses** efficiently. This app supports transaction categorization, filtering, sorting, local data persistence, and CSV export.
 
-First, run the development server:
+> 🔗 **Live Demo:** [https://your-deployment-link.vercel.app](https://your-deployment-link.vercel.app)
+
+---
+
+## ✨ Features
+
+### ✅ Core Functionalities
+- **Add Transactions**: Input your income or expense with fields like amount, date, category, and notes.
+- **Persistent Storage**: Transactions are saved in `localStorage` and remain available across sessions—even if you close or refresh the browser.
+- **Transaction List**: View a list of all transactions with relevant details.
+- **Filtering & Sorting**: Filter transactions by type and category or sort them by amount or date.
+- **Custom Categories**: Users can add and select from custom income/expense categories.
+- **Financial Summary**: View dynamic summaries of your total income, total expenses, and balance.
+- **Export as CSV** *(optional)*: Download your entire transaction history in CSV format.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Storage**: Browser `localStorage`
+- **Deployment**: Vercel / GitHub Pages
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/finance-tracker.git
+cd finance-tracker
+````
+
+### 2. Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the Development Server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Using the App Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+After running the development server, open your browser and visit [http://localhost:3000](http://localhost:3000).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+From there:
 
-## Learn More
+* You can **add your income or expense transactions** using the form.
+* Transactions will appear instantly in the transaction list.
+* The app **stores all your data in your browser**, so your entries will **persist even after you refresh or close the page**.
+* You can **filter, sort, and export** your transactions easily from the UI.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚢 Deployment
 
-## Deploy on Vercel
+This app was deployed easily to a live link using [Vercel](https://vercel.com/).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Deploying to Vercel:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push your project to a GitHub repository.
+2. Go to [https://vercel.com](https://vercel.com) and connect your GitHub account.
+3. Import your repo and follow the prompts to deploy.
+
+> The live link will look like: `https://your-project-name.vercel.app`
+
+---
+
+## 🙌 Acknowledgments
+
+This project was built as part of the **Web3Bridge Cohort XIII Pre-Qualification Exercise**.
+
+---
+
+## 📬 Contact
+
+If you have questions or feedback, feel free to reach out:
+
+* GitHub: [@your-username](https://github.com/your-username)
+* Email: [youremail@example.com](mailto:youremail@example.com)
+
+---
